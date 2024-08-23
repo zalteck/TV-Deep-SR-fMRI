@@ -11,7 +11,7 @@ Mask:
 
 Preprocessing:
 
-3dcalc -overwrite -a 'input.nii.gz[5..$]' -expr 'a' -prefix sub_tcat.nii.gz  
+\>3dcalc -overwrite -a 'input.nii.gz[5..$]' -expr 'a' -prefix sub_tcat.nii.gz  
 3dvolreg -overwrite -verbose -Fourier -prefix sub_volreg.nii.gz -base 0 -1Dfile sub_motion.1D -1Dmatrix_save sub_motion -maxdisp1D sub_maxdisp.1D sub_tcat.nii.gz  
 1d_tool.py -infile sub_motion.1D -censor_motion 0.3 sub  
 1d_tool.py -infile sub_motion.1D -derivative -demean -write sub_motion.deriv.1D  
