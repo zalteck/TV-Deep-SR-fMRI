@@ -3,6 +3,8 @@ DL Self Super Resolution
 
 This repository implements the code for the paper submitted to the International Symposium on Biomedical Imaging (ISBI) 2025
 
+![Image](SR_model_compact_v3.png)
+
 # AFNI commands for preprocessing:
 
 **Mask:**
