@@ -4,6 +4,7 @@ DL Self Super Resolution
 This repository implements the code for the paper submitted to the International Symposium on Biomedical Imaging (ISBI) 2025.
 
 The preprint can be found in Arxiv
+https://arxiv.org/abs/2410.04097
 
 ![Image](SR_model_compact_v3.png)
 
